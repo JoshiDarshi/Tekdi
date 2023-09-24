@@ -1,0 +1,320 @@
+.main {
+    background: url('../images/bg-home.jpg');
+    height: 520px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.imglogo img {
+    height: 70px;
+}
+
+.inerheader {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+
+.inermenu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.inerheader {
+    border-bottom: 1px solid white;
+}
+
+.row .head {
+    color: white;
+    margin-top: 180px;
+}
+
+h2.com-heading {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 50px;
+}
+
+.com-cover {
+    font-size: 18px;
+    line-height: 28px;
+    color: #65737f;
+}
+
+.inerservice {
+    display: flex;
+    gap: 30px;
+}
+
+.link a {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.services {
+    padding-bottom: 50px;
+}
+
+.successheading h1 {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-family: Conv_overpass-extralight;
+}
+
+.box1 {
+
+    width: 300px;
+    height: 330px;
+    border-right: 1px solid white;
+    background-color: #09225a;
+
+    &:hover {
+        background: linear-gradient(to right bottom, #1272bc, #0088cb, #009dd6, #00b2df, #24c7e6);
+        
+         transform: translateY(-30px);
+        & :hover {
+            transform: translateY(1px);
+        }
+
+    }
+}
+
+.box2 {
+    width: 300px;
+    height: 330px;
+    border-right: 1px solid white;
+    background-color: #09225a;
+
+    &:hover {
+        background: linear-gradient(to right bottom, #1272bc, #0088cb, #009dd6, #00b2df, #24c7e6);
+        transform: translateY(-30px);
+
+        & :hover {
+            transform: translateY(2px);
+        }
+    }
+}
+
+.box1 h4 {
+    color: white;
+    text-align: center;
+
+}
+
+.box2 p {
+    color: white;
+    font-size: 17px;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 260px;
+    transform: translateY(130px);
+}
+
+.inersheading {
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 25px;
+    width: 260px;
+    padding-left: 30px;
+    color: white;
+    text-align: center;
+}
+.box1 p{
+    color: white;
+    color: white;
+    font-size: 17px;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 260px;
+    transform: translateY(170px);
+}
+
+.row1 {
+    display: flex;
+}
+
+.bg {
+    background-image: url('../images/industries-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inheading h1 {
+    text-align: center;
+    padding-top: 140px;
+    font-weight: 400;
+    font-family: Conv_overpass-extralight;
+    margin-bottom: 50px;
+}
+
+.inheading p {
+    text-align: center;
+    /* align-items: center; */
+    font-size: 19px;
+    color: gray;
+    padding: 0 280px;
+    font-weight: 500;
+}
+
+.iinerimg img {
+    padding: 70px 30px 20px;
+}
+
+.induxbox {
+    height: 380px;
+}
+
+.card h3 {
+    text-align: left;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+#pcard {
+    width: 23%;
+    border: none;
+    height: 370px;
+    &:hover{
+        box-shadow: 0 4px 4px 0 black;
+    }
+
+}
+
+#cardp{
+    text-align: left;
+    padding: 0px 0px;
+    border: none;
+   
+}
+.handimg img{
+ image-rendering: auto;
+ height: 400px;
+ width: 550px;   
+}
+.joinus{
+    height: 400px;
+ width: 550px;
+ background: #010836;;
+}
+.joinus h1{
+    color: white;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.spanp p{
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+}
+.column4{
+    margin-top: 80px;
+}
+.aboutus{
+    height: 400px;
+ width: 550px;
+    background: #17b1cf;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.aboutus h1{
+    color: white;
+    margin-left: 30px;
+    
+}
+.spanabt p{
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: white;
+    font-size: 20px;
+}
+#corevalue{
+    background: #1271bb;
+}
+.img1c{
+    margin: 30px 0;
+}
+.row2{
+    display: flex;
+    gap: 20px;
+    padding: 20px 10px;
+}
+.contact{
+    background: url('../images/loginbg.jpg');
+    margin-top: 30px;
+}
+.conheading h1{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+.input1 input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    opacity: 0.3;
+}
+.form1{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+#message input{
+    margin-top: 30px;
+    width: 1100px;
+    height: 70px;
+}
+.submitlink{
+    margin-top: 30px;
+    text-align: center;
+}
+.submitlink a{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.footer{
+    background: #09225a;
+    border-bottom: 1px solid white;
+
+}
+.address h4{
+    color: white;
+}
+#ftrp{
+    color: white;
+}
+.company h4{
+    color: white;
+}
+.company li{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.row3{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+.copyright{
+    background: #09225a;
+    padding: 20px;
+}
